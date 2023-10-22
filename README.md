@@ -38,10 +38,21 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 # Steps:
 1. > npx create-next-app@latest ./
+
 2. root/components/
 3. Only pages, routes, specific files in app directory
 4. Use rapcf shortcut to create functional components template
 5. export from index.ts file
-6. "use client"; directive to turn a component into client side rendered component;
+6. "use client"; directive to turn a component into client side rendered component.
+
 7. Add Navbar and footer to the layout file before and after children resp.
-8. 
+
+8. For image links, add following settings in next.config.js:
+const nextConfig = {
+    images: {
+        domains: ['cdn.imagin.studio'],
+    },
+}
+module.exports = nextConfig
+
+9. 
