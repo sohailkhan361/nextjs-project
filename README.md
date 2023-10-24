@@ -39,6 +39,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 A sample learning and tech stack exploration project created for testing efficacy.
 
 # Steps:
+For reference : https://www.youtube.com/watch?v=pUNSHPyVryU
+
 1. > npx create-next-app@latest ./
 
 2. root/components/
